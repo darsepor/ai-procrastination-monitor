@@ -9,7 +9,7 @@ def play_distinctive_noise(duration=10):
     sample_rate = 44100
     t = np.linspace(0, duration, int(sample_rate * duration), False)
     
-    tone = 0.75 * np.sin(2 * np.pi * frequency * t) #+ 0.035 * np.random.normal(size=t.shape)
+    tone = 0.075 * np.sin(2 * np.pi * frequency * t)
 
     audio = (tone * 32767).astype(np.int16)
 
