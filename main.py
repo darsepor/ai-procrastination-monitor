@@ -36,8 +36,8 @@ def productivity_monitor(analysis_model, user_spec="No additional information"):
 
             play_distinctive_noise(duration=5)
         else:
-            time.sleep(10)
-        
+            time.sleep(5)
+        time.sleep(5)
         
 
         
